@@ -1,23 +1,23 @@
 {
   "iterations": [
-    0,
-    0,
-    0,
-    0,
-    0
+    27,
+    43,
+    31,
+    17,
+    42
   ],
   "reasons": [
-    "Unknown",
-    "Unknown",
-    "Unknown",
-    "Unknown",
-    "Unknown"
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3"
   ],
   "distances": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0
+    80.0,
+    110.0,
+    92.0,
+    64.0,
+    105.0
   ]
 }
