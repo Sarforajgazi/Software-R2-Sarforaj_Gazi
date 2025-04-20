@@ -9,7 +9,8 @@ RUNS = 5
 LOG_FILE = "crash_log.json"
 RESPONSES_FILE = "last_responses.json"
 SERVER_SCRIPT = "run_server.py"
-PILOT_SCRIPT = "sarforaj_gazi/pilot.py"
+# PILOT_SCRIPT = "sarforaj_gazi/pilot.py"
+PILOT_SCRIPT = "sarforaj_gazi/pilot_rl.py"
 
 iterations_data = []
 crash_reasons = []
