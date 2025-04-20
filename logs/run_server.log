@@ -1,0 +1,101 @@
+2025-04-18 22:03:47,759 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-18 22:03:47,759 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-18 22:03:47,759 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 16375
+2025-04-18 22:03:47,759 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-18 22:03:47,759 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-18 22:05:00,866 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-18 23:48:35,319 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-18 23:48:35,320 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-18 23:48:35,320 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 19533
+2025-04-18 23:48:35,320 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-18 23:48:35,320 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-18 23:49:33,838 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-18 23:57:10,882 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-18 23:57:10,882 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-18 23:57:10,882 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 19831
+2025-04-18 23:57:10,882 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-18 23:57:10,882 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-18 23:57:44,877 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-18 23:57:54,663 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-18 23:57:54,663 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-18 23:57:54,663 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 19883
+2025-04-18 23:57:54,663 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-18 23:57:54,663 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-18 23:58:07,862 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-18 23:58:10,776 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-18 23:58:10,776 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-18 23:58:10,776 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 19913
+2025-04-18 23:58:10,776 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-18 23:58:10,776 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 00:03:45,238 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:07:36,224 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:07:36,225 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:07:36,225 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 22071
+2025-04-19 01:07:36,225 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:07:36,225 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:12:42,079 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:23:03,780 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:23:03,780 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:23:03,780 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 22366
+2025-04-19 01:23:03,780 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:23:03,781 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:23:36,069 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:30:25,504 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:30:25,505 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:30:25,505 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 22469
+2025-04-19 01:30:25,505 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:30:25,505 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:32:40,437 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:33:42,460 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:33:42,460 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:33:42,460 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 22648
+2025-04-19 01:33:42,460 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:33:42,460 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:34:42,562 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:36:13,318 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:36:13,318 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:36:13,318 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 22787
+2025-04-19 01:36:13,318 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:36:13,318 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:36:54,670 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 01:57:43,255 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 01:57:43,255 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 01:57:43,255 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 23418
+2025-04-19 01:57:43,255 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 01:57:43,255 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 01:58:34,827 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 23:09:09,453 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 23:09:09,454 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 23:09:09,454 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 33998
+2025-04-19 23:09:09,454 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 23:09:09,454 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 23:09:26,845 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 23:09:45,691 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 23:09:45,691 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 23:09:45,691 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 34047
+2025-04-19 23:09:45,691 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 23:09:45,691 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 23:10:38,004 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 23:24:13,605 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 23:24:13,606 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 23:24:13,606 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 35362
+2025-04-19 23:24:13,606 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 23:24:13,606 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 23:24:24,573 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 23:26:43,244 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 23:26:43,244 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 23:26:43,244 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 35587
+2025-04-19 23:26:43,244 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 23:26:43,244 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 23:36:55,167 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-19 23:40:04,723 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-19 23:40:04,723 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-19 23:40:04,723 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 37184
+2025-04-19 23:40:04,723 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-19 23:40:04,723 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator
+2025-04-19 23:58:09,353 - drone_simulator.run_server - INFO [run_server.py:54] - Server tasks cancelled
+2025-04-20 09:54:43,683 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-20 09:54:43,683 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-20 09:54:43,683 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 42306
+2025-04-20 09:54:43,683 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-04-20 09:54:43,683 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/sarforajgazi/Software_R2-main/drone_simulator

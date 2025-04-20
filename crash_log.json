@@ -1,0 +1,23 @@
+{
+  "iterations": [
+    44,
+    4,
+    39,
+    44,
+    7
+  ],
+  "reasons": [
+    "[CRASH] Excessive tilt: 45.15\u00b0 > 45\u00b0",
+    "Unknown",
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3",
+    "[CRASH] Unsafe altitude for RED sensor: y=3"
+  ],
+  "distances": [
+    112.0,
+    15.0,
+    94.0,
+    111.0,
+    27.0
+  ]
+}
