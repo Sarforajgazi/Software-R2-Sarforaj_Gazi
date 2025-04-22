@@ -12247,3 +12247,376 @@
 2025-04-22 19:51:01,098 - drone_simulator.drone - INFO [drone.py:39] - Drone ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
 2025-04-22 19:51:01,098 - drone_simulator.drone - WARNING [drone.py:225] - Drone ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 - Low battery: 0.0%
 2025-04-22 19:51:01,099 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 - CRASHED: Drone has crashed due to battery depletion.
+2025-04-22 19:51:53,477 - drone_simulator.drone - INFO [drone.py:16] - Initializing drone simulator with telemetry file: telemetry_36d733b6-7450-46ac-a78e-4bca701d28ee.json
+2025-04-22 19:51:53,478 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:53,478 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 1: Distance traveled: +1.0, Total: 1.0
+2025-04-22 19:51:53,478 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:53,478 - drone_simulator.drone - WARNING [drone.py:89] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - WARNING: Sensor status changed to YELLOW. Current altitude: 2. Maximum safe altitude is 1000.
+2025-04-22 19:51:53,478 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 2: Distance traveled: +5.0, Total: 6.0
+2025-04-22 19:51:53,982 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:53,983 - drone_simulator.drone - WARNING [drone.py:80] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:51:53,983 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 3: Distance traveled: +5.0, Total: 11.0
+2025-04-22 19:51:54,484 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:54,986 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:55,488 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:55,489 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 4: Distance traveled: +5.0, Total: 16.0
+2025-04-22 19:51:55,990 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:56,492 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:56,493 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 5: Distance traveled: +5.0, Total: 21.0
+2025-04-22 19:51:56,995 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:56,996 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 6: Distance traveled: +5.0, Total: 26.0
+2025-04-22 19:51:57,496 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:57,997 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:57,998 - drone_simulator.drone - WARNING [drone.py:89] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - WARNING: Sensor status changed to YELLOW. Current altitude: 3. Maximum safe altitude is 1000.
+2025-04-22 19:51:57,998 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 7: Distance traveled: +5.0, Total: 31.0
+2025-04-22 19:51:58,499 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:59,001 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:59,002 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 8: Distance traveled: +4.0, Total: 35.0
+2025-04-22 19:51:59,502 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:51:59,502 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 9: Distance traveled: +4.0, Total: 39.0
+2025-04-22 19:52:00,005 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:00,005 - drone_simulator.drone - WARNING [drone.py:80] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRITICAL: Sensor status changed to RED. Current altitude: 2. Must descend below altitude 3.
+2025-04-22 19:52:00,507 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:00,507 - drone_simulator.drone - WARNING [drone.py:89] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - WARNING: Sensor status changed to YELLOW. Current altitude: 3. Maximum safe altitude is 1000.
+2025-04-22 19:52:00,508 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 10: Distance traveled: +4.0, Total: 43.0
+2025-04-22 19:52:01,008 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:01,009 - drone_simulator.drone - WARNING [drone.py:80] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:01,009 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 11: Distance traveled: +4.0, Total: 47.0
+2025-04-22 19:52:01,510 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:02,012 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:02,013 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 12: Distance traveled: +4.0, Total: 51.0
+2025-04-22 19:52:02,514 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:03,016 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:03,518 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:03,518 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 13: Distance traveled: +4.0, Total: 55.0
+2025-04-22 19:52:04,020 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:04,021 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 14: Distance traveled: +4.0, Total: 59.0
+2025-04-22 19:52:04,520 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:05,023 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:05,024 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 15: Distance traveled: +3.0, Total: 62.0
+2025-04-22 19:52:05,525 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:06,027 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:06,028 - drone_simulator.drone - WARNING [drone.py:89] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - WARNING: Sensor status changed to YELLOW. Current altitude: 3. Maximum safe altitude is 1000.
+2025-04-22 19:52:06,028 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 16: Distance traveled: +3.0, Total: 65.0
+2025-04-22 19:52:06,529 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:06,530 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 17: Distance traveled: +3.0, Total: 68.0
+2025-04-22 19:52:07,031 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:07,032 - drone_simulator.drone - WARNING [drone.py:80] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:07,032 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 18: Distance traveled: +3.0, Total: 71.0
+2025-04-22 19:52:07,533 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:07,534 - drone_simulator.drone - WARNING [drone.py:89] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - WARNING: Sensor status changed to YELLOW. Current altitude: 2. Maximum safe altitude is 1000.
+2025-04-22 19:52:08,035 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:08,036 - drone_simulator.drone - WARNING [drone.py:80] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:08,036 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 19: Distance traveled: +3.0, Total: 74.0
+2025-04-22 19:52:08,537 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:09,039 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:09,040 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 20: Distance traveled: +3.0, Total: 77.0
+2025-04-22 19:52:09,540 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:10,042 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:10,043 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 21: Distance traveled: +3.0, Total: 80.0
+2025-04-22 19:52:10,544 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:11,046 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:11,548 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:12,050 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:12,051 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 22: Distance traveled: +2.0, Total: 82.0
+2025-04-22 19:52:12,552 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:12,552 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 23: Distance traveled: +2.0, Total: 84.0
+2025-04-22 19:52:13,053 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:13,054 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 24: Distance traveled: +2.0, Total: 86.0
+2025-04-22 19:52:13,555 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:14,057 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:14,558 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:14,558 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 25: Distance traveled: +2.0, Total: 88.0
+2025-04-22 19:52:15,061 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:15,563 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:15,564 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 26: Distance traveled: +2.0, Total: 90.0
+2025-04-22 19:52:16,065 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:16,065 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 19.2%
+2025-04-22 19:52:16,065 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 27: Distance traveled: +2.0, Total: 92.0
+2025-04-22 19:52:16,567 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:16,567 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 19.1%
+2025-04-22 19:52:17,069 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:17,069 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 17.4%
+2025-04-22 19:52:17,069 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 28: Distance traveled: +2.0, Total: 94.0
+2025-04-22 19:52:17,571 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:17,571 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 17.3%
+2025-04-22 19:52:18,072 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:18,073 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 15.6%
+2025-04-22 19:52:18,073 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 29: Distance traveled: +2.0, Total: 96.0
+2025-04-22 19:52:18,575 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:18,575 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 15.5%
+2025-04-22 19:52:19,076 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:19,077 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 15.4%
+2025-04-22 19:52:19,577 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:19,577 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 13.7%
+2025-04-22 19:52:19,577 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 30: Distance traveled: +2.0, Total: 98.0
+2025-04-22 19:52:20,080 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:20,080 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 13.6%
+2025-04-22 19:52:20,582 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:20,582 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 12.7%
+2025-04-22 19:52:20,583 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 31: Distance traveled: +1.0, Total: 99.0
+2025-04-22 19:52:21,084 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:21,084 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 11.9%
+2025-04-22 19:52:21,085 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 32: Distance traveled: +1.0, Total: 100.0
+2025-04-22 19:52:21,586 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:21,587 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 11.8%
+2025-04-22 19:52:22,088 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:22,089 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 11.7%
+2025-04-22 19:52:22,591 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:22,591 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 10.8%
+2025-04-22 19:52:22,592 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 33: Distance traveled: +1.0, Total: 101.0
+2025-04-22 19:52:23,092 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:23,092 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 9.9%
+2025-04-22 19:52:23,093 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 34: Distance traveled: +1.0, Total: 102.0
+2025-04-22 19:52:23,594 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:23,594 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 9.8%
+2025-04-22 19:52:24,096 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:24,096 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 9.0%
+2025-04-22 19:52:24,097 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 35: Distance traveled: +1.0, Total: 103.0
+2025-04-22 19:52:24,597 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:24,597 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 8.9%
+2025-04-22 19:52:25,100 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:25,100 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 8.8%
+2025-04-22 19:52:25,602 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:25,602 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 8.7%
+2025-04-22 19:52:26,104 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:26,104 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 7.8%
+2025-04-22 19:52:26,105 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 36: Distance traveled: +1.0, Total: 104.0
+2025-04-22 19:52:26,606 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:26,606 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 7.7%
+2025-04-22 19:52:27,107 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:27,107 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 6.8%
+2025-04-22 19:52:27,108 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 37: Distance traveled: +1.0, Total: 105.0
+2025-04-22 19:52:27,609 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:27,609 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 6.7%
+2025-04-22 19:52:28,110 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:28,110 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 5.8%
+2025-04-22 19:52:28,111 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 38: Distance traveled: +1.0, Total: 106.0
+2025-04-22 19:52:28,612 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:28,612 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 4.9%
+2025-04-22 19:52:28,613 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 39: Distance traveled: +1.0, Total: 107.0
+2025-04-22 19:52:29,114 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:29,114 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 4.1%
+2025-04-22 19:52:29,115 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 40: Distance traveled: +1.0, Total: 108.0
+2025-04-22 19:52:29,615 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:29,615 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 4.0%
+2025-04-22 19:52:30,117 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:30,118 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 3.1%
+2025-04-22 19:52:30,118 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 41: Distance traveled: +1.0, Total: 109.0
+2025-04-22 19:52:30,620 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:30,620 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 3.0%
+2025-04-22 19:52:31,122 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:31,122 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 2.2%
+2025-04-22 19:52:31,122 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 42: Distance traveled: +1.0, Total: 110.0
+2025-04-22 19:52:31,624 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:31,624 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 2.1%
+2025-04-22 19:52:32,126 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:32,126 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 2.0%
+2025-04-22 19:52:32,628 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:32,628 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 1.1%
+2025-04-22 19:52:32,628 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 43: Distance traveled: +1.0, Total: 111.0
+2025-04-22 19:52:33,130 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:33,130 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 0.2%
+2025-04-22 19:52:33,131 - drone_simulator.drone - INFO [drone.py:106] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Flight iteration 44: Distance traveled: +1.0, Total: 112.0
+2025-04-22 19:52:33,632 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:33,632 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 0.1%
+2025-04-22 19:52:34,133 - drone_simulator.drone - INFO [drone.py:39] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:34,133 - drone_simulator.drone - WARNING [drone.py:225] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - Low battery: 0.0%
+2025-04-22 19:52:34,134 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone 36d733b6-7450-46ac-a78e-4bca701d28ee - CRASHED: Drone has crashed due to battery depletion.
+2025-04-22 19:52:36,306 - drone_simulator.drone - INFO [drone.py:16] - Initializing drone simulator with telemetry file: telemetry_b333080a-f864-4f49-8975-86491509baef.json
+2025-04-22 19:52:36,307 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:36,307 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 1: Distance traveled: +1.0, Total: 1.0
+2025-04-22 19:52:36,307 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:36,307 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 2: Distance traveled: +5.0, Total: 6.0
+2025-04-22 19:52:36,811 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:36,812 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 3: Distance traveled: +5.0, Total: 11.0
+2025-04-22 19:52:37,311 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:37,311 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 4: Distance traveled: +5.0, Total: 16.0
+2025-04-22 19:52:37,814 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:37,815 - drone_simulator.drone - WARNING [drone.py:89] - Drone b333080a-f864-4f49-8975-86491509baef - WARNING: Sensor status changed to YELLOW. Current altitude: 4. Maximum safe altitude is 1000.
+2025-04-22 19:52:37,815 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 5: Distance traveled: +5.0, Total: 21.0
+2025-04-22 19:52:38,316 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:38,316 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 6: Distance traveled: +5.0, Total: 26.0
+2025-04-22 19:52:38,818 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:38,818 - drone_simulator.drone - INFO [drone.py:106] - Drone b333080a-f864-4f49-8975-86491509baef - Flight iteration 7: Distance traveled: +5.0, Total: 31.0
+2025-04-22 19:52:39,320 - drone_simulator.drone - INFO [drone.py:39] - Drone b333080a-f864-4f49-8975-86491509baef - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:39,320 - drone_simulator.drone - WARNING [drone.py:80] - Drone b333080a-f864-4f49-8975-86491509baef - CRITICAL: Sensor status changed to RED. Current altitude: 5. Must descend below altitude 3.
+2025-04-22 19:52:39,321 - drone_simulator.drone - WARNING [drone.py:84] - Drone b333080a-f864-4f49-8975-86491509baef - EMERGENCY: Immediate descent required. Current altitude of 5 exceeds safe limit of 3 for RED status.
+2025-04-22 19:52:39,321 - drone_simulator.drone - CRITICAL [drone.py:262] - Drone b333080a-f864-4f49-8975-86491509baef - Safety violation: Altitude 5 exceeds maximum safe altitude of 3 for RED sensor status
+2025-04-22 19:52:39,321 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone b333080a-f864-4f49-8975-86491509baef - CRASHED: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:52:41,478 - drone_simulator.drone - INFO [drone.py:16] - Initializing drone simulator with telemetry file: telemetry_d570c9f4-ef34-4c90-a77b-8762828fc819.json
+2025-04-22 19:52:41,478 - drone_simulator.drone - INFO [drone.py:39] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:41,478 - drone_simulator.drone - INFO [drone.py:106] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Flight iteration 1: Distance traveled: +1.0, Total: 1.0
+2025-04-22 19:52:41,479 - drone_simulator.drone - INFO [drone.py:39] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:41,479 - drone_simulator.drone - INFO [drone.py:106] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Flight iteration 2: Distance traveled: +5.0, Total: 6.0
+2025-04-22 19:52:41,982 - drone_simulator.drone - INFO [drone.py:39] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:41,983 - drone_simulator.drone - INFO [drone.py:106] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Flight iteration 3: Distance traveled: +5.0, Total: 11.0
+2025-04-22 19:52:42,483 - drone_simulator.drone - INFO [drone.py:39] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:42,483 - drone_simulator.drone - WARNING [drone.py:80] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - CRITICAL: Sensor status changed to RED. Current altitude: 4. Must descend below altitude 3.
+2025-04-22 19:52:42,483 - drone_simulator.drone - WARNING [drone.py:84] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - EMERGENCY: Immediate descent required. Current altitude of 4 exceeds safe limit of 3 for RED status.
+2025-04-22 19:52:42,483 - drone_simulator.drone - CRITICAL [drone.py:262] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - Safety violation: Altitude 4 exceeds maximum safe altitude of 3 for RED sensor status
+2025-04-22 19:52:42,483 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone d570c9f4-ef34-4c90-a77b-8762828fc819 - CRASHED: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:52:44,631 - drone_simulator.drone - INFO [drone.py:16] - Initializing drone simulator with telemetry file: telemetry_4f0fb631-f760-406e-9540-7534d5063351.json
+2025-04-22 19:52:44,632 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:44,632 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 1: Distance traveled: +1.0, Total: 1.0
+2025-04-22 19:52:44,632 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:44,633 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 2: Distance traveled: +5.0, Total: 6.0
+2025-04-22 19:52:45,136 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:45,136 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 3: Distance traveled: +5.0, Total: 11.0
+2025-04-22 19:52:45,637 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:45,637 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 4: Distance traveled: +5.0, Total: 16.0
+2025-04-22 19:52:46,139 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:46,140 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 5: Distance traveled: +5.0, Total: 21.0
+2025-04-22 19:52:46,641 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:52:46,642 - drone_simulator.drone - WARNING [drone.py:80] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:46,642 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 6: Distance traveled: +5.0, Total: 26.0
+2025-04-22 19:52:47,144 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:47,646 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:47,646 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 7: Distance traveled: +5.0, Total: 31.0
+2025-04-22 19:52:48,148 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:48,650 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:49,152 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:49,152 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 8: Distance traveled: +4.0, Total: 35.0
+2025-04-22 19:52:49,652 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:49,652 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 9: Distance traveled: +4.0, Total: 39.0
+2025-04-22 19:52:50,155 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:50,156 - drone_simulator.drone - WARNING [drone.py:89] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - WARNING: Sensor status changed to YELLOW. Current altitude: 2. Maximum safe altitude is 1000.
+2025-04-22 19:52:50,657 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:50,658 - drone_simulator.drone - WARNING [drone.py:80] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:50,658 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 10: Distance traveled: +4.0, Total: 43.0
+2025-04-22 19:52:51,159 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:51,160 - drone_simulator.drone - WARNING [drone.py:89] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - WARNING: Sensor status changed to YELLOW. Current altitude: 2. Maximum safe altitude is 1000.
+2025-04-22 19:52:51,661 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:51,662 - drone_simulator.drone - WARNING [drone.py:80] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:51,662 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 11: Distance traveled: +4.0, Total: 47.0
+2025-04-22 19:52:52,163 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:52,665 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:52,666 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 12: Distance traveled: +4.0, Total: 51.0
+2025-04-22 19:52:53,167 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:53,669 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:54,171 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:54,172 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 13: Distance traveled: +4.0, Total: 55.0
+2025-04-22 19:52:54,672 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:54,672 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 14: Distance traveled: +4.0, Total: 59.0
+2025-04-22 19:52:55,175 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:55,677 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:55,678 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 15: Distance traveled: +3.0, Total: 62.0
+2025-04-22 19:52:56,179 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:56,681 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:56,682 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 16: Distance traveled: +3.0, Total: 65.0
+2025-04-22 19:52:57,183 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:57,685 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:58,187 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:58,188 - drone_simulator.drone - WARNING [drone.py:89] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - WARNING: Sensor status changed to YELLOW. Current altitude: 2. Maximum safe altitude is 1000.
+2025-04-22 19:52:58,188 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 17: Distance traveled: +3.0, Total: 68.0
+2025-04-22 19:52:58,690 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:58,690 - drone_simulator.drone - WARNING [drone.py:80] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:52:58,691 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 18: Distance traveled: +3.0, Total: 71.0
+2025-04-22 19:52:59,192 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:52:59,692 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:52:59,693 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 19: Distance traveled: +3.0, Total: 74.0
+2025-04-22 19:53:00,195 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:00,696 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:00,697 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 20: Distance traveled: +3.0, Total: 77.0
+2025-04-22 19:53:01,198 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:01,700 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:01,701 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 21: Distance traveled: +3.0, Total: 80.0
+2025-04-22 19:53:02,202 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:02,704 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:02,705 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 22: Distance traveled: +3.0, Total: 83.0
+2025-04-22 19:53:03,206 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:03,708 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:03,709 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 23: Distance traveled: +2.0, Total: 85.0
+2025-04-22 19:53:04,210 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:04,712 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:04,712 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 24: Distance traveled: +2.0, Total: 87.0
+2025-04-22 19:53:05,214 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:05,715 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:05,715 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 25: Distance traveled: +2.0, Total: 89.0
+2025-04-22 19:53:06,218 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:06,720 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:06,721 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 26: Distance traveled: +2.0, Total: 91.0
+2025-04-22 19:53:07,222 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:07,724 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:07,724 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 18.5%
+2025-04-22 19:53:07,725 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 27: Distance traveled: +2.0, Total: 93.0
+2025-04-22 19:53:08,226 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:08,226 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 18.4%
+2025-04-22 19:53:08,728 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:08,728 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 18.3%
+2025-04-22 19:53:09,230 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:09,230 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 16.6%
+2025-04-22 19:53:09,230 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 28: Distance traveled: +2.0, Total: 95.0
+2025-04-22 19:53:09,731 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:09,732 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 14.9%
+2025-04-22 19:53:09,732 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 29: Distance traveled: +2.0, Total: 97.0
+2025-04-22 19:53:10,234 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:10,234 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 14.8%
+2025-04-22 19:53:10,736 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:10,736 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 13.9%
+2025-04-22 19:53:10,737 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 30: Distance traveled: +1.0, Total: 98.0
+2025-04-22 19:53:11,238 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:11,238 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 13.8%
+2025-04-22 19:53:11,740 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:11,740 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 12.9%
+2025-04-22 19:53:11,741 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 31: Distance traveled: +1.0, Total: 99.0
+2025-04-22 19:53:12,242 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:12,242 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 12.8%
+2025-04-22 19:53:12,744 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:12,744 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 12.7%
+2025-04-22 19:53:13,246 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:13,246 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 11.9%
+2025-04-22 19:53:13,246 - drone_simulator.drone - INFO [drone.py:106] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Flight iteration 32: Distance traveled: +1.0, Total: 100.0
+2025-04-22 19:53:13,748 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:13,748 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 11.8%
+2025-04-22 19:53:14,250 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:14,250 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 11.7%
+2025-04-22 19:53:14,752 - drone_simulator.drone - INFO [drone.py:39] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:14,752 - drone_simulator.drone - WARNING [drone.py:225] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - Low battery: 11.6%
+2025-04-22 19:53:14,752 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone 4f0fb631-f760-406e-9540-7534d5063351 - CRASHED: Drone has crashed due to negative altitude.
+2025-04-22 19:53:16,905 - drone_simulator.drone - INFO [drone.py:16] - Initializing drone simulator with telemetry file: telemetry_904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c.json
+2025-04-22 19:53:16,906 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:16,906 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 1: Distance traveled: +1.0, Total: 1.0
+2025-04-22 19:53:16,906 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:16,906 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 2: Distance traveled: +5.0, Total: 6.0
+2025-04-22 19:53:17,408 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:17,408 - drone_simulator.drone - WARNING [drone.py:80] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - CRITICAL: Sensor status changed to RED. Current altitude: 3. Must descend below altitude 3.
+2025-04-22 19:53:17,408 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 3: Distance traveled: +5.0, Total: 11.0
+2025-04-22 19:53:17,911 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:18,413 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:18,414 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 4: Distance traveled: +5.0, Total: 16.0
+2025-04-22 19:53:18,915 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:19,417 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:19,418 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 5: Distance traveled: +5.0, Total: 21.0
+2025-04-22 19:53:19,919 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:20,421 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:20,923 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:20,924 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 6: Distance traveled: +5.0, Total: 26.0
+2025-04-22 19:53:21,425 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:21,426 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 7: Distance traveled: +5.0, Total: 31.0
+2025-04-22 19:53:21,926 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:22,427 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:22,930 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:22,930 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 8: Distance traveled: +4.0, Total: 35.0
+2025-04-22 19:53:23,432 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:23,432 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 9: Distance traveled: +4.0, Total: 39.0
+2025-04-22 19:53:23,934 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:24,436 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:24,436 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 10: Distance traveled: +4.0, Total: 43.0
+2025-04-22 19:53:24,938 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:25,440 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:25,441 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 11: Distance traveled: +4.0, Total: 47.0
+2025-04-22 19:53:25,942 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:26,444 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:26,445 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 12: Distance traveled: +4.0, Total: 51.0
+2025-04-22 19:53:26,945 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:27,446 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:27,949 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:27,950 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 13: Distance traveled: +4.0, Total: 55.0
+2025-04-22 19:53:28,451 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:53:28,452 - drone_simulator.drone - INFO [drone.py:106] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Flight iteration 14: Distance traveled: +4.0, Total: 59.0
+2025-04-22 19:53:28,953 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:29,455 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:29,957 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:30,459 - drone_simulator.drone - INFO [drone.py:39] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - Updating telemetry with input: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:53:30,460 - drone_simulator.drone - CRITICAL [drone.py:118] - Drone 904e9832-0eb1-4f5d-a5a5-58e73ed9ca2c - CRASHED: Drone has crashed due to negative altitude.
