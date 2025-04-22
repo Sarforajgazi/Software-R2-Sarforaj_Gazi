@@ -10262,3 +10262,378 @@
 2025-04-20 12:21:00,965 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone 1fc4e1d7-65c1-46a1-9a66-5e4e24c9ed7f: Drone has crashed due to battery depletion.
 2025-04-20 12:21:00,966 - drone_simulator.server - INFO [server.py:106] - Client unregistered: 1fc4e1d7-65c1-46a1-9a66-5e4e24c9ed7f
 2025-04-20 12:21:00,966 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
+2025-04-22 19:49:04,721 - drone_simulator.server - INFO [server.py:20] - Initializing DroneSimulatorServer on 0.0.0.0:8765
+2025-04-22 19:49:04,722 - drone_simulator.server - INFO [server.py:323] - Starting WebSocket server on 0.0.0.0:8765
+2025-04-22 19:49:04,723 - drone_simulator.server - INFO [server.py:335] - Server started successfully on ws://0.0.0.0:8765
+2025-04-22 19:49:04,723 - drone_simulator.server - INFO [server.py:336] - Waiting for connections...
+2025-04-22 19:49:13,559 - drone_simulator.server - INFO [server.py:202] - New connection handler started for client: 127.0.0.1:61620
+2025-04-22 19:49:13,559 - drone_simulator.server - INFO [server.py:38] - New connection from 127.0.0.1:61620 - assigned ID: 31db287f-781e-4649-aae0-e537a5175b59
+2025-04-22 19:49:13,560 - drone_simulator.server - INFO [server.py:56] - Client registered: 31db287f-781e-4649-aae0-e537a5175b59 from 127.0.0.1:61620
+2025-04-22 19:49:13,560 - drone_simulator.server - INFO [server.py:57] - Active connections: 1
+2025-04-22 19:49:13,560 - drone_simulator.server - INFO [server.py:214] - Welcome message sent to 31db287f-781e-4649-aae0-e537a5175b59
+2025-04-22 19:49:13,560 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:13,561 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 1: Distance: +1.0, Total: 1.0
+2025-04-22 19:49:13,561 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:13,561 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 2: Distance: +5.0, Total: 6.0
+2025-04-22 19:49:14,063 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:14,064 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 3: Distance: +5.0, Total: 11.0
+2025-04-22 19:49:14,565 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:15,067 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:15,569 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:16,071 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:16,073 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 4: Distance: +5.0, Total: 16.0
+2025-04-22 19:49:16,572 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:17,075 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:17,077 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 5: Distance: +5.0, Total: 21.0
+2025-04-22 19:49:17,575 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:18,077 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:18,077 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 6: Distance: +4.0, Total: 25.0
+2025-04-22 19:49:18,578 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:19,080 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:19,082 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 7: Distance: +4.0, Total: 29.0
+2025-04-22 19:49:19,581 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:20,082 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:20,083 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 8: Distance: +4.0, Total: 33.0
+2025-04-22 19:49:20,584 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:21,085 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:21,086 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 9: Distance: +4.0, Total: 37.0
+2025-04-22 19:49:21,586 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:22,087 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:22,088 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 10: Distance: +4.0, Total: 41.0
+2025-04-22 19:49:22,590 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:23,091 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:23,091 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 11: Distance: +4.0, Total: 45.0
+2025-04-22 19:49:23,592 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:24,094 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:24,096 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 12: Distance: +4.0, Total: 49.0
+2025-04-22 19:49:24,595 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:25,098 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:25,100 - drone_simulator.server - INFO [server.py:142] - Client 31db287f-781e-4649-aae0-e537a5175b59 flight iteration 13: Distance: +3.0, Total: 52.0
+2025-04-22 19:49:25,599 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:26,100 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:26,602 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:27,104 - drone_simulator.server - INFO [server.py:226] - Received from 31db287f-781e-4649-aae0-e537a5175b59: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:27,106 - drone_simulator.server - WARNING [server.py:172] - Drone crashed for 31db287f-781e-4649-aae0-e537a5175b59: Drone has crashed due to negative altitude.
+2025-04-22 19:49:27,106 - drone_simulator.server - INFO [server.py:196] - Sending crash response to 31db287f-781e-4649-aae0-e537a5175b59: Drone has crashed due to negative altitude.
+2025-04-22 19:49:27,107 - drone_simulator.server - INFO [server.py:249] - Terminating connection for 31db287f-781e-4649-aae0-e537a5175b59 due to drone crash
+2025-04-22 19:49:27,108 - drone_simulator.server - INFO [server.py:71] - Session stats for 31db287f-781e-4649-aae0-e537a5175b59: Duration: 0.0s, Commands: 29, Iterations: 13, Distance: 52.0
+2025-04-22 19:49:27,108 - drone_simulator.server - INFO [server.py:81] - Unregistering client 31db287f-781e-4649-aae0-e537a5175b59 from 127.0.0.1:61620
+2025-04-22 19:49:27,108 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone 31db287f-781e-4649-aae0-e537a5175b59: Drone has crashed due to negative altitude.
+2025-04-22 19:49:27,108 - drone_simulator.server - INFO [server.py:106] - Client unregistered: 31db287f-781e-4649-aae0-e537a5175b59
+2025-04-22 19:49:27,108 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
+2025-04-22 19:49:29,276 - drone_simulator.server - INFO [server.py:202] - New connection handler started for client: 127.0.0.1:61623
+2025-04-22 19:49:29,276 - drone_simulator.server - INFO [server.py:38] - New connection from 127.0.0.1:61623 - assigned ID: 8d7f7e0f-d242-4c43-86ca-c3beb5514032
+2025-04-22 19:49:29,276 - drone_simulator.server - INFO [server.py:56] - Client registered: 8d7f7e0f-d242-4c43-86ca-c3beb5514032 from 127.0.0.1:61623
+2025-04-22 19:49:29,276 - drone_simulator.server - INFO [server.py:57] - Active connections: 1
+2025-04-22 19:49:29,277 - drone_simulator.server - INFO [server.py:214] - Welcome message sent to 8d7f7e0f-d242-4c43-86ca-c3beb5514032
+2025-04-22 19:49:29,277 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:29,277 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 1: Distance: +1.0, Total: 1.0
+2025-04-22 19:49:29,277 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:29,277 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 2: Distance: +5.0, Total: 6.0
+2025-04-22 19:49:29,780 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:29,782 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 3: Distance: +5.0, Total: 11.0
+2025-04-22 19:49:30,283 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:30,785 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:31,287 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:31,789 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:32,290 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:32,291 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 4: Distance: +5.0, Total: 16.0
+2025-04-22 19:49:32,791 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:33,294 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:33,296 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 5: Distance: +4.0, Total: 20.0
+2025-04-22 19:49:33,796 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:34,297 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:34,300 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 6: Distance: +4.0, Total: 24.0
+2025-04-22 19:49:34,799 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:35,301 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:35,304 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 7: Distance: +4.0, Total: 28.0
+2025-04-22 19:49:35,803 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:36,305 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:36,307 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 8: Distance: +4.0, Total: 32.0
+2025-04-22 19:49:36,807 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:37,308 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:37,810 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:38,312 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:38,314 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 9: Distance: +4.0, Total: 36.0
+2025-04-22 19:49:38,814 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:38,816 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 10: Distance: +4.0, Total: 40.0
+2025-04-22 19:49:39,316 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:39,817 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:39,820 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 11: Distance: +4.0, Total: 44.0
+2025-04-22 19:49:40,319 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:40,821 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:40,824 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 12: Distance: +3.0, Total: 47.0
+2025-04-22 19:49:41,323 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:41,326 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 13: Distance: +3.0, Total: 50.0
+2025-04-22 19:49:41,825 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:42,326 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:42,327 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 14: Distance: +3.0, Total: 53.0
+2025-04-22 19:49:42,829 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:43,331 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:43,333 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 15: Distance: +3.0, Total: 56.0
+2025-04-22 19:49:43,833 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:44,335 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:44,337 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 16: Distance: +3.0, Total: 59.0
+2025-04-22 19:49:44,837 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:49:45,338 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:45,840 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:45,842 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 17: Distance: +3.0, Total: 62.0
+2025-04-22 19:49:46,342 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:46,844 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:46,846 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 18: Distance: +3.0, Total: 65.0
+2025-04-22 19:49:47,345 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:47,847 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:48,349 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:48,352 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 19: Distance: +2.0, Total: 67.0
+2025-04-22 19:49:48,852 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:48,854 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 20: Distance: +2.0, Total: 69.0
+2025-04-22 19:49:49,353 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:49,855 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:49,858 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 21: Distance: +2.0, Total: 71.0
+2025-04-22 19:49:50,357 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:50,859 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:50,862 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 22: Distance: +2.0, Total: 73.0
+2025-04-22 19:49:51,361 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:51,864 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:51,866 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 23: Distance: +2.0, Total: 75.0
+2025-04-22 19:49:52,365 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:52,867 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:53,369 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:53,372 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 24: Distance: +2.0, Total: 77.0
+2025-04-22 19:49:53,871 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:53,874 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 25: Distance: +2.0, Total: 79.0
+2025-04-22 19:49:54,373 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:54,875 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:54,877 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 26: Distance: +1.0, Total: 80.0
+2025-04-22 19:49:55,377 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:55,879 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:55,881 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 27: Distance: +1.0, Total: 81.0
+2025-04-22 19:49:56,381 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:56,883 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:56,886 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 28: Distance: +1.0, Total: 82.0
+2025-04-22 19:49:57,384 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:57,887 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:58,389 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:49:58,891 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:58,894 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 29: Distance: +1.0, Total: 83.0
+2025-04-22 19:49:59,393 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:59,396 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 30: Distance: +1.0, Total: 84.0
+2025-04-22 19:49:59,895 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:49:59,898 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 31: Distance: +1.0, Total: 85.0
+2025-04-22 19:50:00,397 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:00,899 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:00,902 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 32: Distance: +1.0, Total: 86.0
+2025-04-22 19:50:01,401 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:01,903 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:01,906 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 33: Distance: +1.0, Total: 87.0
+2025-04-22 19:50:02,405 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:02,907 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:02,910 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 34: Distance: +1.0, Total: 88.0
+2025-04-22 19:50:03,409 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:03,911 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:03,914 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 35: Distance: +1.0, Total: 89.0
+2025-04-22 19:50:04,413 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:04,915 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:04,918 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 36: Distance: +1.0, Total: 90.0
+2025-04-22 19:50:05,417 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:05,919 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:05,923 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 37: Distance: +1.0, Total: 91.0
+2025-04-22 19:50:06,421 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:06,923 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:06,926 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 38: Distance: +1.0, Total: 92.0
+2025-04-22 19:50:07,425 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:07,927 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:07,930 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 39: Distance: +1.0, Total: 93.0
+2025-04-22 19:50:08,429 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:08,931 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:08,934 - drone_simulator.server - INFO [server.py:142] - Client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 flight iteration 40: Distance: +1.0, Total: 94.0
+2025-04-22 19:50:09,433 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:09,935 - drone_simulator.server - INFO [server.py:226] - Received from 8d7f7e0f-d242-4c43-86ca-c3beb5514032: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:09,938 - drone_simulator.server - WARNING [server.py:172] - Drone crashed for 8d7f7e0f-d242-4c43-86ca-c3beb5514032: Drone has crashed due to battery depletion.
+2025-04-22 19:50:09,938 - drone_simulator.server - INFO [server.py:196] - Sending crash response to 8d7f7e0f-d242-4c43-86ca-c3beb5514032: Drone has crashed due to battery depletion.
+2025-04-22 19:50:09,938 - drone_simulator.server - INFO [server.py:249] - Terminating connection for 8d7f7e0f-d242-4c43-86ca-c3beb5514032 due to drone crash
+2025-04-22 19:50:09,940 - drone_simulator.server - INFO [server.py:71] - Session stats for 8d7f7e0f-d242-4c43-86ca-c3beb5514032: Duration: 0.0s, Commands: 83, Iterations: 40, Distance: 94.0
+2025-04-22 19:50:09,940 - drone_simulator.server - INFO [server.py:81] - Unregistering client 8d7f7e0f-d242-4c43-86ca-c3beb5514032 from 127.0.0.1:61623
+2025-04-22 19:50:09,940 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone 8d7f7e0f-d242-4c43-86ca-c3beb5514032: Drone has crashed due to battery depletion.
+2025-04-22 19:50:09,940 - drone_simulator.server - INFO [server.py:106] - Client unregistered: 8d7f7e0f-d242-4c43-86ca-c3beb5514032
+2025-04-22 19:50:09,940 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
+2025-04-22 19:50:12,114 - drone_simulator.server - INFO [server.py:202] - New connection handler started for client: 127.0.0.1:61627
+2025-04-22 19:50:12,114 - drone_simulator.server - INFO [server.py:38] - New connection from 127.0.0.1:61627 - assigned ID: c0951a80-4b3d-42a1-b230-6964d62fbdda
+2025-04-22 19:50:12,114 - drone_simulator.server - INFO [server.py:56] - Client registered: c0951a80-4b3d-42a1-b230-6964d62fbdda from 127.0.0.1:61627
+2025-04-22 19:50:12,114 - drone_simulator.server - INFO [server.py:57] - Active connections: 1
+2025-04-22 19:50:12,114 - drone_simulator.server - INFO [server.py:214] - Welcome message sent to c0951a80-4b3d-42a1-b230-6964d62fbdda
+2025-04-22 19:50:12,115 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:12,115 - drone_simulator.server - INFO [server.py:142] - Client c0951a80-4b3d-42a1-b230-6964d62fbdda flight iteration 1: Distance: +1.0, Total: 1.0
+2025-04-22 19:50:12,115 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:12,115 - drone_simulator.server - INFO [server.py:142] - Client c0951a80-4b3d-42a1-b230-6964d62fbdda flight iteration 2: Distance: +5.0, Total: 6.0
+2025-04-22 19:50:12,618 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:12,621 - drone_simulator.server - INFO [server.py:142] - Client c0951a80-4b3d-42a1-b230-6964d62fbdda flight iteration 3: Distance: +5.0, Total: 11.0
+2025-04-22 19:50:13,120 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:13,123 - drone_simulator.server - INFO [server.py:142] - Client c0951a80-4b3d-42a1-b230-6964d62fbdda flight iteration 4: Distance: +5.0, Total: 16.0
+2025-04-22 19:50:13,622 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:14,124 - drone_simulator.server - INFO [server.py:226] - Received from c0951a80-4b3d-42a1-b230-6964d62fbdda: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:14,127 - drone_simulator.server - WARNING [server.py:172] - Drone crashed for c0951a80-4b3d-42a1-b230-6964d62fbdda: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:14,127 - drone_simulator.server - INFO [server.py:196] - Sending crash response to c0951a80-4b3d-42a1-b230-6964d62fbdda: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:14,127 - drone_simulator.server - INFO [server.py:249] - Terminating connection for c0951a80-4b3d-42a1-b230-6964d62fbdda due to drone crash
+2025-04-22 19:50:14,128 - drone_simulator.server - INFO [server.py:71] - Session stats for c0951a80-4b3d-42a1-b230-6964d62fbdda: Duration: 0.0s, Commands: 6, Iterations: 4, Distance: 16.0
+2025-04-22 19:50:14,128 - drone_simulator.server - INFO [server.py:81] - Unregistering client c0951a80-4b3d-42a1-b230-6964d62fbdda from 127.0.0.1:61627
+2025-04-22 19:50:14,129 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone c0951a80-4b3d-42a1-b230-6964d62fbdda: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:14,129 - drone_simulator.server - INFO [server.py:106] - Client unregistered: c0951a80-4b3d-42a1-b230-6964d62fbdda
+2025-04-22 19:50:14,129 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
+2025-04-22 19:50:16,276 - drone_simulator.server - INFO [server.py:202] - New connection handler started for client: 127.0.0.1:61629
+2025-04-22 19:50:16,276 - drone_simulator.server - INFO [server.py:38] - New connection from 127.0.0.1:61629 - assigned ID: 1f9fb490-88a4-413f-b16b-ed0c01baa00f
+2025-04-22 19:50:16,276 - drone_simulator.server - INFO [server.py:56] - Client registered: 1f9fb490-88a4-413f-b16b-ed0c01baa00f from 127.0.0.1:61629
+2025-04-22 19:50:16,276 - drone_simulator.server - INFO [server.py:57] - Active connections: 1
+2025-04-22 19:50:16,276 - drone_simulator.server - INFO [server.py:214] - Welcome message sent to 1f9fb490-88a4-413f-b16b-ed0c01baa00f
+2025-04-22 19:50:16,277 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:16,277 - drone_simulator.server - INFO [server.py:142] - Client 1f9fb490-88a4-413f-b16b-ed0c01baa00f flight iteration 1: Distance: +1.0, Total: 1.0
+2025-04-22 19:50:16,277 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:16,278 - drone_simulator.server - INFO [server.py:142] - Client 1f9fb490-88a4-413f-b16b-ed0c01baa00f flight iteration 2: Distance: +5.0, Total: 6.0
+2025-04-22 19:50:16,780 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:16,782 - drone_simulator.server - INFO [server.py:142] - Client 1f9fb490-88a4-413f-b16b-ed0c01baa00f flight iteration 3: Distance: +5.0, Total: 11.0
+2025-04-22 19:50:17,281 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:17,281 - drone_simulator.server - INFO [server.py:142] - Client 1f9fb490-88a4-413f-b16b-ed0c01baa00f flight iteration 4: Distance: +5.0, Total: 16.0
+2025-04-22 19:50:17,783 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:18,285 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:18,787 - drone_simulator.server - INFO [server.py:226] - Received from 1f9fb490-88a4-413f-b16b-ed0c01baa00f: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:18,790 - drone_simulator.server - WARNING [server.py:172] - Drone crashed for 1f9fb490-88a4-413f-b16b-ed0c01baa00f: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:18,791 - drone_simulator.server - INFO [server.py:196] - Sending crash response to 1f9fb490-88a4-413f-b16b-ed0c01baa00f: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:18,791 - drone_simulator.server - INFO [server.py:249] - Terminating connection for 1f9fb490-88a4-413f-b16b-ed0c01baa00f due to drone crash
+2025-04-22 19:50:18,792 - drone_simulator.server - INFO [server.py:71] - Session stats for 1f9fb490-88a4-413f-b16b-ed0c01baa00f: Duration: 0.0s, Commands: 7, Iterations: 4, Distance: 16.0
+2025-04-22 19:50:18,792 - drone_simulator.server - INFO [server.py:81] - Unregistering client 1f9fb490-88a4-413f-b16b-ed0c01baa00f from 127.0.0.1:61629
+2025-04-22 19:50:18,792 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone 1f9fb490-88a4-413f-b16b-ed0c01baa00f: Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.
+2025-04-22 19:50:18,792 - drone_simulator.server - INFO [server.py:106] - Client unregistered: 1f9fb490-88a4-413f-b16b-ed0c01baa00f
+2025-04-22 19:50:18,793 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
+2025-04-22 19:50:20,944 - drone_simulator.server - INFO [server.py:202] - New connection handler started for client: 127.0.0.1:61631
+2025-04-22 19:50:20,944 - drone_simulator.server - INFO [server.py:38] - New connection from 127.0.0.1:61631 - assigned ID: ae496deb-3ec6-4f16-a61d-bc1bf1b016d5
+2025-04-22 19:50:20,944 - drone_simulator.server - INFO [server.py:56] - Client registered: ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 from 127.0.0.1:61631
+2025-04-22 19:50:20,944 - drone_simulator.server - INFO [server.py:57] - Active connections: 1
+2025-04-22 19:50:20,944 - drone_simulator.server - INFO [server.py:214] - Welcome message sent to ae496deb-3ec6-4f16-a61d-bc1bf1b016d5
+2025-04-22 19:50:20,945 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:20,945 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 1: Distance: +1.0, Total: 1.0
+2025-04-22 19:50:20,945 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:20,945 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 2: Distance: +5.0, Total: 6.0
+2025-04-22 19:50:21,447 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:21,447 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 3: Distance: +5.0, Total: 11.0
+2025-04-22 19:50:21,948 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:22,450 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:22,952 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:23,454 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:23,458 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 4: Distance: +5.0, Total: 16.0
+2025-04-22 19:50:23,956 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:24,458 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 5, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:24,461 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 5: Distance: +5.0, Total: 21.0
+2025-04-22 19:50:24,960 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:25,462 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:25,464 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 6: Distance: +4.0, Total: 25.0
+2025-04-22 19:50:25,962 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:26,464 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:26,466 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 7: Distance: +4.0, Total: 29.0
+2025-04-22 19:50:26,966 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:27,467 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:27,469 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 8: Distance: +4.0, Total: 33.0
+2025-04-22 19:50:27,969 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:28,471 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:28,473 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 9: Distance: +4.0, Total: 37.0
+2025-04-22 19:50:28,973 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:29,474 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:29,477 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 10: Distance: +4.0, Total: 41.0
+2025-04-22 19:50:29,976 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:30,478 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:30,980 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:30,982 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 11: Distance: +4.0, Total: 45.0
+2025-04-22 19:50:31,482 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 4, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:31,484 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 12: Distance: +4.0, Total: 49.0
+2025-04-22 19:50:31,983 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:32,485 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:32,987 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:32,989 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 13: Distance: +3.0, Total: 52.0
+2025-04-22 19:50:33,489 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:33,991 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:33,993 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 14: Distance: +3.0, Total: 55.0
+2025-04-22 19:50:34,493 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:34,495 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 15: Distance: +3.0, Total: 58.0
+2025-04-22 19:50:34,995 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:35,497 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:35,999 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:36,501 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:36,504 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 16: Distance: +3.0, Total: 61.0
+2025-04-22 19:50:37,003 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:37,505 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:37,507 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 17: Distance: +3.0, Total: 64.0
+2025-04-22 19:50:38,007 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:38,509 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:39,011 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:39,013 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 18: Distance: +3.0, Total: 67.0
+2025-04-22 19:50:39,512 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:39,512 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 19: Distance: +2.0, Total: 69.0
+2025-04-22 19:50:40,014 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:40,516 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:40,519 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 20: Distance: +2.0, Total: 71.0
+2025-04-22 19:50:41,018 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:41,520 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:41,523 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 21: Distance: +2.0, Total: 73.0
+2025-04-22 19:50:42,022 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:42,524 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:42,527 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 22: Distance: +2.0, Total: 75.0
+2025-04-22 19:50:43,026 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:43,528 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:43,531 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 23: Distance: +2.0, Total: 77.0
+2025-04-22 19:50:44,030 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:44,532 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:44,535 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 24: Distance: +2.0, Total: 79.0
+2025-04-22 19:50:45,034 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:45,536 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 2, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:45,539 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 25: Distance: +2.0, Total: 81.0
+2025-04-22 19:50:46,038 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:46,540 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:46,543 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 26: Distance: +1.0, Total: 82.0
+2025-04-22 19:50:47,042 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:47,544 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:47,546 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 27: Distance: +1.0, Total: 83.0
+2025-04-22 19:50:48,046 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:48,548 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:48,550 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 28: Distance: +1.0, Total: 84.0
+2025-04-22 19:50:49,050 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:49,552 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:49,554 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 29: Distance: +1.0, Total: 85.0
+2025-04-22 19:50:50,054 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:50,556 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:50,559 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 30: Distance: +1.0, Total: 86.0
+2025-04-22 19:50:51,058 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:51,560 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 0, 'movement': 'fwd'}
+2025-04-22 19:50:52,062 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:52,564 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:52,566 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 31: Distance: +1.0, Total: 87.0
+2025-04-22 19:50:53,066 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:53,568 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:53,571 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 32: Distance: +1.0, Total: 88.0
+2025-04-22 19:50:54,070 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:54,572 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:54,575 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 33: Distance: +1.0, Total: 89.0
+2025-04-22 19:50:55,074 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:55,576 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:55,579 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 34: Distance: +1.0, Total: 90.0
+2025-04-22 19:50:56,078 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:56,580 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:56,582 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 35: Distance: +1.0, Total: 91.0
+2025-04-22 19:50:57,082 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:57,584 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:57,587 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 36: Distance: +1.0, Total: 92.0
+2025-04-22 19:50:58,086 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:58,588 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:50:58,591 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 37: Distance: +1.0, Total: 93.0
+2025-04-22 19:50:59,090 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:50:59,591 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:00,093 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:00,096 - drone_simulator.server - INFO [server.py:142] - Client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 flight iteration 38: Distance: +1.0, Total: 94.0
+2025-04-22 19:51:00,595 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 0, 'altitude': -1, 'movement': 'rev'}
+2025-04-22 19:51:01,097 - drone_simulator.server - INFO [server.py:226] - Received from ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-22 19:51:01,100 - drone_simulator.server - WARNING [server.py:172] - Drone crashed for ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: Drone has crashed due to battery depletion.
+2025-04-22 19:51:01,100 - drone_simulator.server - INFO [server.py:196] - Sending crash response to ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: Drone has crashed due to battery depletion.
+2025-04-22 19:51:01,100 - drone_simulator.server - INFO [server.py:249] - Terminating connection for ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 due to drone crash
+2025-04-22 19:51:01,101 - drone_simulator.server - INFO [server.py:71] - Session stats for ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: Duration: 0.0s, Commands: 82, Iterations: 38, Distance: 94.0
+2025-04-22 19:51:01,101 - drone_simulator.server - INFO [server.py:81] - Unregistering client ae496deb-3ec6-4f16-a61d-bc1bf1b016d5 from 127.0.0.1:61631
+2025-04-22 19:51:01,101 - drone_simulator.server - WARNING [server.py:91] - Unregistering crashed drone ae496deb-3ec6-4f16-a61d-bc1bf1b016d5: Drone has crashed due to battery depletion.
+2025-04-22 19:51:01,101 - drone_simulator.server - INFO [server.py:106] - Client unregistered: ae496deb-3ec6-4f16-a61d-bc1bf1b016d5
+2025-04-22 19:51:01,102 - drone_simulator.server - INFO [server.py:107] - Active connections: 0
