@@ -1,12 +1,32 @@
 [
   {
     "status": "crashed",
-    "message": "Drone has crashed due to battery depletion.",
+    "message": "Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.",
     "metrics": {
-      "iterations": 40,
-      "total_distance": 98
+      "iterations": 22,
+      "total_distance": 82
     },
-    "final_telemetry": "X-113-Y-3-BAT-0-GYR-[0.31262859194318143, 0.003507060162951854, -0.05984442733431182]-WIND-100-DUST-100-SENS-RED",
+    "final_telemetry": "X-84-Y-4-BAT-26.28953783726943-GYR-[-0.17153765680621647, 0.1723196841216427, 0.053423571876208234]-WIND-100-DUST-100-SENS-RED",
+    "connection_terminated": true
+  },
+  {
+    "status": "crashed",
+    "message": "Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.",
+    "metrics": {
+      "iterations": 6,
+      "total_distance": 24
+    },
+    "final_telemetry": "X-43-Y-4-BAT-63.28157281479842-GYR-[0.013346892276600908, -0.1421164463833648, -0.0293902056411795]-WIND-100-DUST-93.49335542606113-SENS-RED",
+    "connection_terminated": true
+  },
+  {
+    "status": "crashed",
+    "message": "Drone has crashed due to negative altitude.",
+    "metrics": {
+      "iterations": 9,
+      "total_distance": 36
+    },
+    "final_telemetry": "X-51-Y-0-BAT-55.53943870661079-GYR-[-0.1254682070670693, -0.48583836185706814, 0.033556163492401814]-WIND-97.97656148899787-DUST-98.21073775225156-SENS-RED",
     "connection_terminated": true
   },
   {
@@ -16,37 +36,17 @@
       "iterations": 4,
       "total_distance": 16
     },
-    "final_telemetry": "X-35-Y-5-BAT-70.51842627562293-GYR-[-0.01366794559701312, -0.25015588599374944, 0.06501642467643325]-WIND-100-DUST-72.84789219960552-SENS-RED",
+    "final_telemetry": "X-66-Y-4-BAT-44.6669604958413-GYR-[-0.03363577955517147, -0.07193056971977493, 0.06550730096829631]-WIND-90.24199632682088-DUST-100-SENS-RED",
     "connection_terminated": true
   },
   {
     "status": "crashed",
     "message": "Drone has crashed due to unsafe altitude with RED sensor status. Maximum safe altitude is 3.",
     "metrics": {
-      "iterations": 3,
-      "total_distance": 11
+      "iterations": 7,
+      "total_distance": 26
     },
-    "final_telemetry": "X-16-Y-4-BAT-86.35560584301825-GYR-[0.11032683128330308, 0.199458511782502, 0.051739930948027604]-WIND-100-DUST-72.38268352849124-SENS-RED",
-    "connection_terminated": true
-  },
-  {
-    "status": "crashed",
-    "message": "Drone has crashed due to negative altitude.",
-    "metrics": {
-      "iterations": 29,
-      "total_distance": 85
-    },
-    "final_telemetry": "X-100-Y-0-BAT-11.565554991125376-GYR-[0.539339823237816, -0.09022684108961154, -0.06316502647981755]-WIND-100-DUST-100-SENS-RED",
-    "connection_terminated": true
-  },
-  {
-    "status": "crashed",
-    "message": "Drone has crashed due to negative altitude.",
-    "metrics": {
-      "iterations": 14,
-      "total_distance": 59
-    },
-    "final_telemetry": "X-59-Y-0-BAT-47.99254996463959-GYR-[-0.06345360945957454, 0.3142460931212679, 0.04050346081102263]-WIND-83.1400783977724-DUST-98.26585819445407-SENS-RED",
+    "final_telemetry": "X-69-Y-7-BAT-41.95867993607728-GYR-[-0.1342205279515963, 0.022835148775661486, -0.0172195874850304]-WIND-91.88995710161412-DUST-60.83730813993975-SENS-RED",
     "connection_terminated": true
   }
 ]
